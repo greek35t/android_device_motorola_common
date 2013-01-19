@@ -15,7 +15,8 @@ OMAP_ENHANCEMENT := true
 #OMAP_ENHANCEMENT_VTC := true
 #USE_ITTIAM_AAC := true
 #BLTSVILLE_ENHANCEMENT :=true
-BOARD_USE_TI_ENHANCED_DOMX := true
+#BOARD_USE_TI_ENHANCED_DOMX := true
+ENHANCED_DOMX := true
 
 # inherit from the proprietary version
 -include vendor/motorola/common/BoardConfigVendor.mk
