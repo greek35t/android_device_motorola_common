@@ -1,4 +1,4 @@
-ifneq ($(NATIVE_LIBION),true)
+ifeq ($(NATIVE_LIBION),false)
 
 LOCAL_PATH:= $(call my-dir)
 
