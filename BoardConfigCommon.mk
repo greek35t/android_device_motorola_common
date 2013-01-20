@@ -18,6 +18,9 @@ OMAP_ENHANCEMENT := true
 #BOARD_USE_TI_ENHANCED_DOMX := true
 ENHANCED_DOMX := true
 
+#LOCAL_LIBION := true #Use libion from device/motorola/common
+NATIVE_LIBION := true #Use libion from hardware/ti
+
 # inherit from the proprietary version
 -include vendor/motorola/common/BoardConfigVendor.mk
 
